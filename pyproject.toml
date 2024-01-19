@@ -7,8 +7,9 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-Flask = "^3.0.1"
-connexion = {extras = ["swagger-ui"], version = "^3.0.5"}
+Flask = "2.2.2"
+connexion = {version = "2.14.1", extras = ["swagger-ui"]}
+requests = "^2.31.0"
 
 
 [build-system]
