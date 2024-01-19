@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "flask-project"
+version = "0.1.0"
+description = ""
+authors = ["RDS <rds@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Flask = "^3.0.1"
+connexion = {extras = ["swagger-ui"], version = "^3.0.5"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
